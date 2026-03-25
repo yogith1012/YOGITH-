@@ -1,15 +1,16 @@
-#include <stdio.h>
+# C Programming Repository
 
-int main() {
-    int n, sum = 0, a[100];
-    printf("Enter number of elements: ");
-    scanf("%d", &n);
-    for(int i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
-    }
-    for(int i = 1; i < n; i += 2) {
-        sum += a[i];
-    }
-    printf("Sum of even position elements: %d", sum);
-    return 0;
-}
+Hello! This is my first GitHub repository. I am learning how to use GitHub for academic projects.
+
+## Programs Included
+- Sum of even position elements
+
+## Language
+C
+
+## How to Run
+1. Compile using: gcc filename.c
+2. Run using: ./a.out
+
+## Author
+Yogith
